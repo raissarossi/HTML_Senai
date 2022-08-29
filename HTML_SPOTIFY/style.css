@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+.barra {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.container01{
+    margin-top: 60px;
+    height: 400px;
+    display: flex;
+    background: rgb(125,0,45);
+    background: linear-gradient(180deg, rgba(125,0,45,1) 0%, rgba(9,9,121,1) 25%, rgba(73,28,206,1) 100%);
+}
+.title{
+    color: white;
+    margin-top: auto;
+    font-size: xx-large;
+    text-align: center;
+    display: flex;
+}
