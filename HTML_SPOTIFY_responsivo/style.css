@@ -55,16 +55,30 @@
         font-family: Arial;
     }
     .barra {
+        color: #fff;
         background-color: #000;
         display: flex;
         height: 60px;
         position: fixed;
         top: 0;
         width: 100%;
+        justify-content: center;
+        align-content: stretch;
+        align-items: center;
+    }
+    .barra h2 {
+        color: #FFF;
+    }
+    .barra img{
+        height: 40px;
+        width: 40px;
+        padding-left: 10px;
+        transform: rotate(175deg);
+        
     }
     .container01{
         margin-top: 60px;
-        height: 300px;
+        min-height: 300px;
         display: flex;
         background: rgb(155,6,168);
     background: linear-gradient(180deg, rgba(155,6,168,1) 0%, rgba(9,9,121,1) 21%, rgba(73,28,206,1) 100%);
@@ -77,13 +91,15 @@
         text-align: center;
         display: flex;
         flex-direction: column;
+        padding-top: 10px;
+        width: 100%;
     }
     .title span{
         font-size: 30px;
         padding: 60px;
         width: 700px;
+        margin: 10px;
     }
-    
     .links{
         display: flex;
         justify-content: space-between;
@@ -115,7 +131,8 @@
     }
     .container02{
         background-color: #ebebeb;
-        height: 500px;
+        min-height: 500px;
+
     }
     .title2{
         color: #000;
@@ -128,7 +145,7 @@
     .allballs{
         padding: 50px;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
         align-items: center;
         justify-items: center;
     }
@@ -157,13 +174,12 @@
         align-items: center;
     }
     .txt{
-        padding-top: 20px;
+        padding-top: 10px;
+        padding-bottom: 20px;
     }
     .container03{
         background-color: #D9D9D9;
-        height: 700px;
-        display: flex;
-        justify-content: space-between;
+        min-height: 700px;
         
     }
     .plans{
@@ -177,6 +193,11 @@
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
+    }
+    .allplans{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
     }
     .tipo{
         margin: 20px;
@@ -207,7 +228,10 @@
         width: 150px;
         padding: 10px;
         margin-bottom: 20px;
-    
+    }
+    .start a{
+        color: #fff;
+        text-decoration: none;
     }
     .infos{
         font-size: 12px;
@@ -221,20 +245,97 @@
     .container04{
         background: rgb(155,6,168);
         background: linear-gradient(0deg, rgba(168,6,72,1) 0%, rgba(79,37,204,1) 21%, rgba(15,0,92,1) 100%);
-        display: flex;
-        justify-content: center;
+        display: flex; 
+        justify-content: space-between;
         height: 400px;
     }
-    .container05{
-        color:#FFF;
+    .infosEnd{
+        display: flex; 
+        justify-content: space-evenly;   
+        width: 100%;
     }
+    .container05{
+        background-color: aqua;
+        color: #FFF;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .container06{
+        display: flex;
+    }
+    .container06 img{
+        height: 100%;
+    }
+    .container07{
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        background-color: aqua;
+        align-items: center;
+        align-content: space-between;
+        
+        
+    }
+    .container08{
+        display: none;
+    }
+    .link03{
+        font-size: 15px;
+        border: solid 2px #FFF;
+        border-radius: 10px;
+        padding: 10px;   
+    }
+    .link03 a{
+        color: #FFF;
+        text-decoration: none;
+    }
+    .link04{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        justify-items: center;
+    } 
+    .link04 img{
+        width: 30px;
+        height: 30px;        
+    }
+    .insta {
+        border-radius: 100%;
+        width: 50px;
+        height: 50px;
+        background-color: rgb(155,6,168);
+        align-items: center;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .twitter {
+        border-radius: 100%;
+        width: 50px;
+        height: 50px;
+        background-color: rgb(155,6,168);
+        align-items: center;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .facebook{
+        border-radius: 100%;
+        width: 50px;
+        height: 50px;
+        background-color: rgb(155,6,168);
+        align-items: center;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
 }
 @media screen and (max-width:500px) {
 
     .barra {
         background-color: #000;
         display: flex;
-        height: 60px;
+        height: 50px;
         position: fixed;
         top: 0;
         width: 100%;
@@ -254,7 +355,7 @@
     }
 
     .container01{
-        margin-top: 60px;
+        margin-top: 50px;
         height: 500px;
         width: 100%;
         display: flex;
