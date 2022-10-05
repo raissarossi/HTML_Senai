@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+
+}
+
+.borda  {
+    background-color: rgb(52, 16, 61);
+    border-bottom: solid 5px rgb(171, 102, 189);
+    display: flex;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.container {
+    border: solid 2px rgb(52, 16, 61);
+    width: 70%;
+    margin: 30px auto;
+    margin-top: 100px;
+    
+
+}
+.a01{
+    background-color: rgb(171, 102, 189);
+    border-radius: 50px 50px 0px 0px;
+    height: 300px;
+    margin: 20px;
+}
+.a02, .a03, .a04{
+    color: white;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(98, 43, 112);
+    width: auto;
+    margin: 20px;
+    display: inline-block;
+    
+}
+.textos{
+    display: flex;
+}
+.txt01{
+    color: white;
+    padding: 20px;
+    background-color: rgb(171, 102, 189);
+    height: auto;
+    width: 47%;
+    margin: 20px;
+    line-height: 30px;
+    margin: 20px;
+    
+}
+.txt02{
+    color: white;
+    padding: 20px;
+    background-color: rgb(171, 102, 189);
+    border-radius: 15px;
+    height: auto;
+    width: 47%;
+    margin: 20px;
+    
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+}
+.cards_duplo{
+    display: flex;
+    justify-content: end;
+}
+.a05{
+    color: white;
+    background-color: rgb(98, 43, 112);
+    width: auto;
+    text-align: center;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 30px;
+    
+}
+.a05div{
+    text-align: center;
+}
+.ball{
+    display: flex;
+}
+.bola{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: rgb(98, 43, 112);
+    border: solid 3px rgb(52, 16, 61);
+    margin-right: 10px;
+    margin-top: 45%;
+    position: fixed;
+    right: 0%;
+}
+.bola:hover{
+    background-color: rgb(171, 102, 189);
+}
+footer{
+    background-color: rgb(52, 16, 61);
+    height: 40px;
+    border-top: solid 5px rgb(171, 102, 189);
+
+}
+img scr{
+justify-items: center;
+}
